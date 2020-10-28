@@ -1,0 +1,49 @@
+Don’t Even Try Paying Cash in China
+How two apps created new kinds of commerce in China, and what a cashless future might look like.
+By Shira Ovide
+
+It’s hard for those of us who live outside of China to grasp how paying for everything has gone digital in the country.
+
+Most businesses there, from the fanciest hotels to roadside fruit stands, display a QR code — a type of bar code — that people scan with a smartphone camera to pay with China’s dominant digital payment apps, Alipay and WeChat. Paying by app is so much the norm that taxi drivers might curse at you for handing them cash.
+
+My colleague Ray Zhong, who used to live in Beijing and wrote about Alipay’s parent company selling stock to the public for the first time, spoke with me about how China’s digital payment apps created new kinds of commerce, and whether China offers a glimpse at a cashless future for the rest of us.
+
+Shira: How did Alipay and WeChat get so popular in China?
+
+Ray: Credit cards were never prevalent in China. The country skipped over a generation of finance and went straight to smartphone-based digital payments.
+
+And the apps are simple for businesses. If a business can get a printout of aQR code, it can get paid by app. They don’t need special machines like businesses do to accept credit cards or many mobile payments like Apple Pay, which are essentially digital wallets of bank cards, while Alipay and WeChat are more pure digital payments.
+
+What’s useful about these payment apps?
+
+China has a stodgy, state-dominated banking system. These apps have allowed small businesses to connect to modern financial infrastructure easily.
+
+I know paying with a credit card isn’t tremendously difficult, but making it a fraction easier to buy stuff has enabled different kinds of commerce. You probably wouldn’t buy something on Instagram for 50 cents with your credit card, but people in China buy digital books one chapter at a time.
+
+What are the downsides?
+
+Imagine if powerful tech companies like Google knew everything you’ve purchased in your entire life. That’s one.
+
+There are also concerns that Alipay and WeChat are so dominant that no one can compete with them.
+
+How did China’s government respond to these two apps creating a financial system outside its explicit control?
+
+The government has been attentive. It put a cap on fees that Alipay and WeChat can charge merchants. And where the apps make their real money — in making loans and selling investments — the government wants to make sure borrowers aren’t being gouged and investment funds aren’t taking on excessive risks.
+
+These apps initially portrayed themselves as alternatives to the conventional, government-backed banking system. But in response to the government’s scrutiny, Alipay and WeChat deliberately now say they are partners to banks, not competitors. Several government-owned funds and institutions are investors in Ant Group, Alipay’s owner.
+
+(Our newsletter cousins at DealBook have more information on the initial public stock offering of Ant Group.)
+
+Is China a preview of digital payments taking hold in the rest of the world?
+
+Alipay and WeChat developed for China’s specific needs. I’m not convinced similar QR-code-based digital payment systems will catch on elsewhere. Maybe in India.
+
+Alipay and WeChat are hardly perfect. I think Apple Pay is much easier to use, for in-person checkout at least. But the Chinese apps have the edge for online payments. No typing a 16-digit credit card number into a tiny field on your computer.
+
+When you lived in China, did you use payment apps?
+
+Yes, for everything: my rent, phone bills, food, gym classes, train tickets, rides on Didi — the Chinese equivalent of Uber.
+
+What do you miss about the payment apps?
+
+Cash and making change are super-annoying. And I hate coins. Actually, does anyone like coins?
