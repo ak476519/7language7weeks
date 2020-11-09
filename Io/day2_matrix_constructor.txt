@@ -1,0 +1,63 @@
+Matrix := Object clone
+Matrix matrix := List clone
+Matrix row := Number clone
+Matrix col := Number clone
+Matrix dim := method(x, y,
+	col = x
+	row = y
+	matrix = List clone
+	for (i, 1, y, 1,
+		list := List clone
+		for (j, 1, x, 1, list append(nil))
+		matrix append(list)
+	)
+);
+Matrix get := method(x, y,
+	row := matrix at(y)
+	row at(x)
+)
+Matrix set := method(x, y, value,
+	row := matrix at(y)
+	row atPut(x, value)
+	matrix atPut(y, row)
+)
+Matrix inverse := method(
+	inversed := Matrix clone
+	inversed dim(row, col)
+	for (i, 0, inversed row -1, 1,
+        	for (j, 0, inversed col -1, 1,
+			num := get(i,j)
+                	inversed set(j, i, num)
+        	)
+	)
+	inversed
+)
+
+origin := Matrix clone
+f := File with("sample_matrix.txt")
+
+// parse file
+f openForReading
+matrix_params := f readLine split(",")
+origin dim(matrix_params at(1) asNumber, matrix_params at(0) asNumber)
+for (i, 0, origin row -1, 1,
+	elems := f readLine split(",")
+	for (j, 0, origin col -1, 1,
+		num := elems at(j) asNumber
+		origin set(j, i, num)
+	)
+)
+origin matrix println
+
+//invert matrix and write to new file
+inversed := origin inverse
+inversed matrix println
+string := "#{inversed row},#{inversed col}" interpolate
+inversed matrix foreach(row, string = "#{string}\n#{row asString exSlice(5,-1)}" interpolate)
+newFile := File with("inversed_matrix.txt")
+newFile openForUpdating
+newFile write(string)
+newFile close
+newFile open
+file := newFile readToEnd
+file println

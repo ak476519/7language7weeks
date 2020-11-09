@@ -1,0 +1,8 @@
+"Here are all slots in an object of Io: " println;
+i := Object clone;
+i value := 1;
+Object slotNames foreach(
+	slotName, writeln("Slot ", i value, ": ", slotName);
+	i value = i value + 1;
+);
+writeln(i value, " slots in total.");

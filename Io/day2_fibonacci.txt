@@ -1,0 +1,14 @@
+find_fibonacci := method(n,
+	writeln("Find ", n, "th fibonacci number."); 
+	2 repeat(1 println);
+	i := 1;
+	j := 1;
+	for (x, 1, n, 1, 
+		sum := i+j;
+		i := j;
+		j := sum
+		j println;
+	)
+);
+
+find_fibonacci(50)

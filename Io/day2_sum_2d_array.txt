@@ -1,0 +1,16 @@
+"Enter number of rows in array." println
+line := File standardInput readLine
+n := line asNumber
+array := List clone
+
+for (i, 1, n, 1,
+	"Input new row, separate numbers by spaces: " println
+	line = File standardInput readLine
+	row := List clone
+	line split foreach(number, row append(number asNumber))
+	array append(row)
+)
+sum := 0 clone
+array foreach(a, a foreach(num, sum = sum + num))
+array println
+writeln("sum: ", sum);

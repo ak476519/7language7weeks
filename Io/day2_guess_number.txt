@@ -1,0 +1,12 @@
+//generate random number 
+num := Random value(100) floor
+//ask questions on a loop
+for (i, 1, 10, 1,
+	"Guess a number of 1 ~ 100: " println
+	input := File standardInput readLine asNumber
+	if (input == num, break, 
+		if (input < num, "Hotter" println, "Colder" println)
+	)
+)
+string := if (i >= 11, "You lose!", "You win!")
+string println
